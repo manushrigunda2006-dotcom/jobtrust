@@ -1,0 +1,33 @@
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.oxlintrc.json
+*.local
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+backend/.venv/
+env/
+venv/
+ENV/
+*.joblib
+backend/jobtrust.db
+backend/uploads/*.pdf
+backend/reports/*.pdf
+!backend/uploads/.gitkeep
+!backend/reports/.gitkeep
+
+# Environment variables & secrets
+.env
+*.env.local
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
